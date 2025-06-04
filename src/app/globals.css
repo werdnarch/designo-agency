@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --bgdark: #1d1b1c;
+  --orange: #e98068;
+  --color-peach: hsl(11, 73%, 66%);
+  --color-black: hsl(270, 3%, 11%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-peach: hsl(11, 100%, 80%);
+  --color-lighter-peach: hsl(14, 76%, 97%);
+  --color-dark-grey: hsl(264, 5%, 20%);
+  --color-light-grey: hsl(210, 17%, 95%);
+}
+
+body {
+  height: 100dvh;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-jost), Helvetica, sans-serif;
+}
+
+.bgdark {
+  background: var(--bgdark);
+}
+
+.orange {
+  background: var(--orange);
+}
+
+.peachHover {
+  background: var(--color-light-peach);
+}
